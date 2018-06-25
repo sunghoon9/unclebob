@@ -1,0 +1,154 @@
+ul.menu {
+	display:table;
+	margin:0;
+	&:before {
+		clear:both;
+	}
+
+	&:after {
+		clear:both;
+	}
+
+	li.leaf {
+		padding-top:0;
+	}
+}
+
+
+
+#block-system-user-menu {
+	float:right;
+	padding:0 15px;
+
+	a {
+		font-family:'Roboto';
+		font-size:0.875rem; font-weight:200; color:#666;
+	}
+}
+
+body.logged-in {
+	#block-system-user-menu {
+		ul.menu {
+			> li.leaf {
+				float:left;
+
+				&:first-child {
+					a {
+						&:before {
+							content:'\e9f3';
+							position:relative;
+							top:1px;
+							margin-right:5px;
+							font-family:'xeicon';
+							color:#666;
+						}
+					}
+				}
+
+				&:nth-child(2) {
+					a {
+						&:before {
+							content:'\e972';
+							position:relative;
+							top:1px;
+							margin-right:5px;
+							font-family:'xeicon';
+							color:#666;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#block-system-main-menu {
+	float:right;
+	padding:15px;
+	ul.menu {
+		> li.leaf {
+			float:left;
+
+			a {
+				font-family:'Roboto';
+				font-size:1.25rem; font-weight:200; color:#fff;
+			}
+
+			&:first-child {
+				a {
+					&:before {
+						content:'\e900';
+						position:relative;
+						top:1px;
+						margin-right:5px;
+						font-family:'xeicon';
+					}
+				}
+			}
+
+			&:nth-child(2) {
+				a {
+					&:before {
+						content:'\e9a0';
+						position:relative;
+						top:1px;
+						margin-right:5px;
+						font-family:'xeicon';
+					}
+				}
+			}
+
+			&:nth-child(3) {
+				a {
+					&:before {
+						content:'\ea34';
+						position:relative;
+						top:1px;
+						margin-right:5px;
+						font-family:'xeicon';
+						color:#fff;
+					}
+				}
+			}
+
+			a {
+				padding:5px 15px;
+				color:#fff;
+			}
+		}
+	}
+}
+
+nav.menu--skills {
+	> ul.menu {
+		> li.menu-item {
+			margin-bottom:20px;
+			&.menu-item--expanded {
+				list-style-image:none;
+
+				> ul.menu {
+					margin-left:15px;
+
+					> li.menu-item {
+						margin-bottom:5px;
+
+						a {
+							font-family:'Roboto';
+							font-size:1.25rem; font-weight:200;
+						}
+					}
+				}
+			}
+		}
+
+		a {
+			font-family:'Roboto';
+			font-size:1.618rem; font-weight:200;
+		}
+	}
+}
+
+// Sidebar Menu toggler //
+#block-toggler-for-sidebar {
+	float:left;
+}

@@ -1,0 +1,117 @@
+html {
+  font-family: 'Roboto', 'Nanum Gothic';
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  line-height: 1.618;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Roboto', 'Nanum Gothic';
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Roboto', 'Nanum Gothic';
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Roboto', 'Nanum Gothic';
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Roboto', 'Nanum Gothic';
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: 'Roboto', 'Nanum Gothic';
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+h6 {
+  font-family: 'Roboto', 'Nanum Gothic';
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Roboto', 'Nanum Gothic';
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+span {
+  font-family: 'Roboto', 'Nanum Gothic';
+}
+span.label {
+  display: inline-block;
+  font-size: 1rem;
+  color: #5f4b8b;
+}
+
+a {
+  font-size: inherit;
+  font-weight: 300;
+  color: #5f4b8b;
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.messages {
+  margin-bottom: 30px;
+  font-size: 0.875rem;
+}
+
+.block-system-breadcrumb-block {
+  content: '';
+  display: table;
+  clear: both;
+  width: 100%;
+}
+.block-system-breadcrumb-block .breadcrumb {
+  float: right;
+}
+.block-system-breadcrumb-block .breadcrumb li {
+  font-size: 0.875rem;
+}
+.block-system-breadcrumb-block .breadcrumb li:before {
+  content: "\e940";
+  font-family: 'xeicon';
+  vertical-align: middle;
+}
+.block-system-breadcrumb-block .breadcrumb li:first-child:before {
+  content: '';
+  display: none;
+}
+.block-system-breadcrumb-block .breadcrumb li a {
+  vertical-align: middle;
+}
+
+.ultra_violet a {
+  color: #5f4b8b;
+}
+
+.greenery a {
+  color: #88b04b;
+}
+
+.rose_quartz a {
+  color: #f7cac9;
+}
+
+.serenity a {
+  color: #91a8d1;
+}

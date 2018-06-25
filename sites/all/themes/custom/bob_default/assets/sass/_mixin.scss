@@ -1,0 +1,75 @@
+// default_border //
+@mixin default_border_1($width) {
+	border:$width solid $color_ultra_violet;
+}
+@mixin default_border_2($width) {
+	border:$width solid $color_greenery;
+}
+@mixin default_border_3($width) {
+	border-top:$width solid $color_rose_quartz;
+	border-left:$width solid $color_rose_quartz;
+	border-right:$width solid $color_serenity;
+	border-bottom:$width solid $color_serenity;
+}
+@mixin default_border_4($width) {
+	border-top:$width solid $color_serenity;
+	border-left:$width solid $color_serenity;
+	border-right:$width solid $color_rose_quartz;
+	border-bottom:$width solid $color_rose_quartz;
+}
+
+// default_border_top //
+@mixin default_border_top_1($width) {
+	border-top:$width solid $color_ultra_violet;
+}
+@mixin default_border_top_2($width) {
+	border-top:$width solid $color_greenery;
+}
+@mixin default_border_top_3($width) {
+	border-top:$width solid $color_rose_quartz;
+}
+@mixin default_border_top_4($width) {
+	border-top:$width solid $color_serenity;
+}
+
+// default_border_left //
+@mixin default_border_left_1($width) {
+	border-left:$width solid $color_ultra_violet;
+}
+@mixin default_border_left_2($width) {
+	border-left:$width solid $color_greenery;
+}
+@mixin default_border_left_3($width) {
+	border-left:$width solid $color_rose_quartz;
+}
+@mixin default_border_left_4($width) {
+	border-left:$width solid $color_serenity;
+}
+
+// default_border_right //
+@mixin default_border_right_1($width) {
+	border-right:$width solid $color_ultra_violet;
+}
+@mixin default_border_right_2($width) {
+	border-right:$width solid $color_greenery;
+}
+@mixin default_border_right_3($width) {
+	border-right:$width solid $color_rose_quartz;
+}
+@mixin default_border_right_4($width) {
+	border-right:$width solid $color_serenity;
+}
+
+// default_border_bottom //
+@mixin default_border_bottom_1($width) {
+	border-bottom:$width solid $color_ultra_violet;
+}
+@mixin default_border_bottom_2($width) {
+	border-bottom:$width solid $color_greenery;
+}
+@mixin default_border_bottom_3($width) {
+	border-bottom:$width solid $color_rose_quartz;
+}
+@mixin default_border_bottom_4($width) {
+	border-bottom:$width solid $color_serenity;
+}

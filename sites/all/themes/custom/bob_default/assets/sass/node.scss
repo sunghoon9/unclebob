@@ -1,0 +1,14 @@
+@import "_variables";
+@import "_mixin";
+
+body.page-node {
+	#wrapper {
+		#main_container {
+			main {
+				.region-content {
+					padding:0;
+				}
+			}
+		}
+	}
+}

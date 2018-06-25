@@ -1,0 +1,135 @@
+@import "_variables";
+@import "_mixin";
+
+// Default font style //
+html {
+	font-family:'Roboto', 'Nanum Gothic';
+	font-size:16px;
+	font-weight:400;
+	color:#666;
+	line-height:1.618;
+	box-sizing:border-box;
+}
+
+.basc_color_1 {}
+
+// Headline //
+h1 {
+	font-family:'Roboto', 'Nanum Gothic';
+	font-size:2rem;
+	font-weight:900;
+}
+
+h2 {
+	font-family:'Roboto', 'Nanum Gothic';
+	font-size:1.8rem;
+	font-weight:700;
+}
+
+h3 {
+	font-family:'Roboto', 'Nanum Gothic';
+	font-size:1.6rem;
+	font-weight:700;
+}
+
+h4 {
+	font-family:'Roboto', 'Nanum Gothic';
+	font-size:1.4rem;
+	font-weight:700;
+}
+
+h5 {
+	font-family:'Roboto', 'Nanum Gothic';
+	font-size:1.2rem;
+	font-weight:400;
+}
+
+h6 {
+	font-family:'Roboto', 'Nanum Gothic';
+	font-size:1rem;
+	font-weight:400;
+}
+
+p {
+	font-family:'Roboto', 'Nanum Gothic';
+	margin:0; margin-bottom:10px;
+	font-size:1rem; font-weight:300;
+}
+
+span {
+	font-family:'Roboto', 'Nanum Gothic';
+	&.label {
+		display:inline-block;
+		font-size:1rem;
+		color:$base_color;
+	}
+}
+
+a {
+	font-size:inherit; font-weight:300; color:$base_color;
+	text-decoration:none !important;
+
+	&:hover {
+		text-decoration:underline;
+	}
+}
+
+.messages {
+	margin-bottom:30px;
+	font-size:0.875rem;
+}
+
+// Breadcrumb //
+.block-system-breadcrumb-block {
+	content:'';
+	display:table;
+	clear:both;
+	width:100%;
+
+	.breadcrumb {
+		float:right;
+		li {
+			&:before {
+				content:"\e940";
+				font-family:'xeicon';
+				vertical-align:middle;
+			}
+			&:first-child {
+				&:before {
+					content:'';
+					display:none;
+				}
+			}
+			font-size:0.875rem;
+
+			a {
+				vertical-align:middle;
+			}
+		}
+	}
+}
+
+// Random color //
+.ultra_violet {
+	a {
+		color:$color_ultra_violet;
+	}
+}
+
+.greenery {
+	a {
+		color:$color_greenery;
+	}
+}
+
+.rose_quartz {
+	a {
+		color:$color_rose_quartz;
+	}
+}
+
+.serenity {
+	a {
+		color:$color_serenity;
+	}
+}
