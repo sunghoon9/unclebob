@@ -1,3 +1,6 @@
 body.page-node #wrapper #main_container main .region-content {
   padding: 0;
 }
+body.page-node #wrapper #main_container main .region-content .content_bottom .tabs {
+  margin: 10px;
+}

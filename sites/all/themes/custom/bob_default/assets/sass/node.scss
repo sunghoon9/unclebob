@@ -7,6 +7,12 @@ body.page-node {
 			main {
 				.region-content {
 					padding:0;
+
+					.content_bottom {
+						.tabs {
+							margin:10px;
+						}
+					}
 				}
 			}
 		}
